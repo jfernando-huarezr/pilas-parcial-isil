@@ -2,7 +2,7 @@
 
 ## ISIL 2023-2
 
-### Evaluacion Parcial 2 - Evaluador de Expresiones Postfijas
+### Examen Parcial - Evaluador de Expresiones Postfijas
 
 #### Descripción
 
