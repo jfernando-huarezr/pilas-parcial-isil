@@ -22,23 +22,24 @@ En matemáticas, usualmente escribimos operaciones en una forma que se llama not
 
 Ejemplo:
 
-- Entrada: 8 2 5 _ + 1 3 2 _ \* /
+```Entrada: 8 2 5 * + 1 3 2 * * /
 
-- La evaluación se realiza de la siguiente manera:
+La evaluación se realiza de la siguiente manera:
 
-- 8 (se apila)
-- 2 (se apila)
-- 5 (se apila)
-- - (se desapilan dos elementos, se multiplica 2 por 5, el resultado - 10 se apila)
-- - (se desapilan dos elementos, se suma 8 y 10, el resultado 18 se apila)
-- 1 (se apila)
-- 3 (se apila)
-- 2 (se apila)
-- - (se desapilan dos elementos, se multiplica 3 por 2, el resultado 6 se apila)
-- - (se desapilan dos elementos, se suma 1 y 6, el resultado 6 se apila)
-- / (se desapilan dos elementos, se divide 18 entre 6, el resultado 3 se apila)
+8 (se apila)
+2 (se apila)
+5 (se apila)
+* (se desapilan dos elementos, se multiplica 2 por 5, el resultado 10 se apila)
++ (se desapilan dos elementos, se suma 8 y 10, el resultado 18 se apila)
+1 (se apila)
+3 (se apila)
+2 (se apila)
+* (se desapilan dos elementos, se multiplica 3 por 2, el resultado 6 se apila)
+* (se desapilan dos elementos, se suma 1 y 6, el resultado 6 se apila)
+/ (se desapilan dos elementos, se divide 18 entre 6, el resultado 3 se apila)
 
-- Salida: 3`
+Salida: 3
+```
 
 #### Rúbrica:
 
